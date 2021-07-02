@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PoetryApp</string>
+    <string name="title_home">个人中心</string>
+    <string name="title_read">阅读</string>
+    <string name="search_format1">通过诗词名搜索</string>
+    <string name="search_format2">通过作者名搜索</string>
+</resources>

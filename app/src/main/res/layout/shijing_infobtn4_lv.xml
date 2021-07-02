@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"  android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/shijing_info_iv"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:src="@drawable/shijing_logo"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:id="@+id/shijing_info_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/shijing_info_iv"
+        android:layout_marginTop="10dp"
+        android:text="诗经名"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/shijing_info_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/shijing_info_title"
+        android:layout_alignBottom="@id/shijing_info_iv"
+        android:text="章节名"/>
+    <ImageView
+        android:id="@+id/shijing_info_iv_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/expand"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

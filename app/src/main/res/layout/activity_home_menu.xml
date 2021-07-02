@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeMenuActivity"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/home_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="150dp"
+        android:text="唐宋诗"
+        android:textSize="35sp"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/home_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:text="论语"
+        android:textSize="35sp"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/home_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:text="宋词"
+        android:textSize="35sp"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/home_btn4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:text="诗经"
+        android:textSize="35sp"
+        android:onClick="onClick"/>
+
+</LinearLayout>
